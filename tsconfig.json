@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "types": [
+      "vite/client",
+      "vite-plugin-svgr/client",
+      "node",
+      "vitest/globals"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "jsx": "react-jsx",
+    "noImplicitOverride": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "target": "es2025",
+    "module": "esnext"
+  },
+  "include": [
+    "src",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "eslint.config.js"
+  ]
+}
